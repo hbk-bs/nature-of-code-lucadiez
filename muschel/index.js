@@ -1,6 +1,6 @@
 let mic;
 let rings = [];
-let maxOffset = 100;
+let maxOffset = 10;
 let frameDelay = 10;
 let ringShrink = 0.998;
 
