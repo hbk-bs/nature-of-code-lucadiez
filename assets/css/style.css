@@ -1,0 +1,50 @@
+
+/*Überschriften*/
+h1 {
+  padding: 40px 0 0px 0;
+  text-align: center;
+}
+
+/* Hauptseite */
+main {
+  flex: 1;
+}
+.overview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iframe {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+  /*Unteseiten*/
+  .work {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 800px;
+    justify-items: center;
+  }
+  .work h3 {
+    grid-column: span 2;
+    text-align: center;
+  }
+  .work {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .reflection {
+    max-width: 800px;
+  }
+  .iframe {
+    max-width: 800px;
+  }
+img{
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+article {
+margin-bottom: 50px;
+}

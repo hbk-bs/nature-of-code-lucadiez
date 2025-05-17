@@ -20,7 +20,7 @@ function setup() {
 }
 
 function draw() {
-  background(240);
+  background(230, 200, 170);
 
   // 1. Schneckenbewegung und Spurengenerierung
   for (let snail of snails) {
