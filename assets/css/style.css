@@ -37,6 +37,7 @@ main {
   }
   .reflection {
     max-width: 800px;
+    margin: 0 50px;
   }
   .iframe {
     max-width: 800px;
